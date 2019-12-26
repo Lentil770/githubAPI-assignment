@@ -1,0 +1,27 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github API assignment</title> 
+    <link rel='stylesheet' href='style.css'>
+</head>
+<body>
+    <form class='user-search-form'>
+        <label for='userName'>Who's repos would you like to see?</label>
+        <input id='userName' type="text" required placeholder="user name">
+        <br><input class="submit" type="submit" value='Search'>
+    </form>
+
+    <p class='error-message'></p>
+
+    <section class="repo-results hidden">
+        <h2>search results</h2>
+        <ul class='results-list'>
+
+        </ul>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
